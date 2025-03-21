@@ -17,8 +17,7 @@ def rules(rules_filename):
             yield build_match_and_apply_functions(pattern, search, replace)
 
 def plural(noun, rules_filename=
-           './plural4-rules.txt'):
-    print(os.getchd())         
+           './ClosuresGenerators/plural4-rules.txt'):       
     for matches_rule, apply_rule in rules(rules_filename):
         if matches_rule(noun):
             return apply_rule(noun)

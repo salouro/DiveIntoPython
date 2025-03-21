@@ -1,0 +1,8 @@
+m$           m$    ns
+[aeiou][rz]$ $ es
+s$           $     es
+[aeou]l$     l$    is
+il$          l$    s
+[aeiou][n]$  $     s
+x$           ^     vários
+$            $     s

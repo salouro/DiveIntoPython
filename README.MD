@@ -12,7 +12,7 @@ Aprendendo Python com o livro [Dive Into Python 3](https://diveintopython3.net/ 
     - [x] [Closures & Generators][def2]
     - [x] [Classes & Iterators][def8]
     - [x] [Advanced Iterators][def9]
-    - [ ] [Unit Testing][def10]
+    - [x] [Unit Testing][def10]
     - [ ] [Refactoring][def11]
     - [x] [Files][def12]
     - [ ] [XML][def13]

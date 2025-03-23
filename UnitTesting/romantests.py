@@ -68,7 +68,7 @@ class KnowValues(unittest.TestCase):
     
     def test_from_roman_known_values(self):
         '''from_roman deve resultar em um número conhecido para um numeral conhecido'''
-        for numeral, integer in self.known_values:
+        for integer, numeral in self.known_values:
             result = roman1.from_roman(numeral)
             self.assertEqual(integer, result)
 
@@ -83,7 +83,7 @@ class FromRomanBadInput(unittest.TestCase):
     def test_too_many_repeated_numerals(self):
         '''from_roman deve falhar quando no input constam muitos numerais repetidos'''
         for s in ('MMMM', 'DD', 'CCCC', 'LL', 'XXXX', 'VV', 'IIII'):
-            self.assertRaises(roman1.InvalidNumeralERror, roman1.from_roman, s)
+            self.assertRaises(roman1.InvalidNumeralError, roman1.from_roman, s)
     
     def test_repeated_pairs(self):
         '''from_roman deve falhar quando encontra pares repetidos de numerais'''

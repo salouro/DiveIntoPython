@@ -11,7 +11,7 @@ Aprendendo Python com o livro [Dive Into Python 3](https://diveintopython3.net/ 
     - [ ] [Regular Expressions][def]
     - [x] [Closures & Generators][def2]
     - [x] [Classes & Iterators][def8]
-    - [ ] [Advanced Iterators][def9]
+    - [x] [Advanced Iterators][def9]
     - [ ] [Unit Testing][def10]
     - [ ] [Refactoring][def11]
     - [x] [Files][def12]
